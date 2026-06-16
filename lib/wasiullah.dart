@@ -42,10 +42,10 @@ class _wasiullahState extends State<wasiullah> {
             leading: CircleAvatar(
               radius: 50,
               backgroundColor: Colors.black54,
-              child: Text("OA", style: TextStyle(color: Colors.white)),
+              child: Text("WK", style: TextStyle(color: Colors.white)),
             ),
             title: Text(
-              "Obaidullah Ch",
+              "Wasiullah Khan",
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 20,
@@ -54,7 +54,7 @@ class _wasiullahState extends State<wasiullah> {
               ),
             ),
             subtitle: Text(
-              "FLutter Developer",
+              "Amazon Private Label Expert",
               style: TextStyle(
                 fontFamily: "Inter",
                 fontSize: 13,
@@ -87,7 +87,7 @@ class _wasiullahState extends State<wasiullah> {
               Icon(Icons.email, color: Colors.black45),
               SizedBox(width: 10),
               Text(
-                "Obaidullahch425@gmail.com",
+                "Wasikhan001@gmail.com",
                 style: TextStyle(color: Colors.black45),
               ),
             ],
@@ -105,14 +105,7 @@ class _wasiullahState extends State<wasiullah> {
             ),
           ),
           SizedBox(height: 10),
-          Text(
-            "Flutter developer in the making, focused on building practical mobile apps with clean UI. Currently pursuing BS Computer Science while actively developing real-world projects",
-            style: TextStyle(
-              fontFamily: "Inter",
-              fontSize: 14,
-              color: Colors.black45,
-            ),
-          ),
+          Text("Experienced Amazon Private Label Expert skilled in product research, sourcing, and launching profitable brands on Amazon FBA"),
           SizedBox(height: 15),
           Divider(color: Colors.black45),
           SizedBox(height: 15),
@@ -135,9 +128,9 @@ class _wasiullahState extends State<wasiullah> {
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
                       colors: [
-                        Color(0xff649173),
-                        Color(0xffdbd5a4),
-                        Color(0xff8faab3),
+                        Color(0xffe6dada),
+                        Color(0xff274046),
+                        Color(0xffb5734a),
                       ],
                       begin: Alignment.topRight,
                       end: Alignment.bottomLeft,
@@ -146,12 +139,12 @@ class _wasiullahState extends State<wasiullah> {
                   ),
                   child: Center(
                     child: Text(
-                      "Flutter",
+                      "E-Commerce",
                       style: TextStyle(
                         fontFamily: "Inter",
                         fontSize: 15,
                         fontWeight: FontWeight.bold,
-                        color: Colors.black45,
+                        color: Colors.white70,
                       ),
                     ),
                   ),
@@ -164,9 +157,9 @@ class _wasiullahState extends State<wasiullah> {
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
                       colors: [
-                        Color(0xff649173),
-                        Color(0xffdbd5a4),
-                        Color(0xff8faab3),
+                        Color(0xffe6dada),
+                        Color(0xff274046),
+                        Color(0xffb5734a),
                       ],
                       begin: Alignment.topRight,
                       end: Alignment.bottomLeft,
@@ -175,12 +168,12 @@ class _wasiullahState extends State<wasiullah> {
                   ),
                   child: Center(
                     child: Text(
-                      "Java",
+                      "Amazon FBM",
                       style: TextStyle(
                         fontFamily: "Inter",
                         fontSize: 15,
                         fontWeight: FontWeight.bold,
-                        color: Colors.black45,
+                        color: Colors.white70,
                       ),
                     ),
                   ),
@@ -192,9 +185,9 @@ class _wasiullahState extends State<wasiullah> {
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
                       colors: [
-                        Color(0xff649173),
-                        Color(0xffdbd5a4),
-                        Color(0xff8faab3),
+                        Color(0xffe6dada),
+                        Color(0xff274046),
+                        Color(0xffb5734a),
                       ],
                       begin: Alignment.topRight,
                       end: Alignment.bottomLeft,
@@ -203,12 +196,12 @@ class _wasiullahState extends State<wasiullah> {
                   ),
                   child: Center(
                     child: Text(
-                      "FireBase",
+                      "Amazon FBA",
                       style: TextStyle(
                         fontFamily: "Inter",
                         fontSize: 15,
                         fontWeight: FontWeight.bold,
-                        color: Colors.black45,
+                        color: Colors.white70,
                       ),
                     ),
                   ),
@@ -238,9 +231,9 @@ class _wasiullahState extends State<wasiullah> {
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
                       colors: [
-                        Color(0xff649173),
-                        Color(0xffdbd5a4),
-                        Color(0xff8faab3),
+                        Color(0xffe6dada),
+                        Color(0xff274046),
+                        Color(0xffb5734a),
                       ],
                       begin: Alignment.topRight,
                       end: Alignment.bottomLeft,
@@ -249,12 +242,12 @@ class _wasiullahState extends State<wasiullah> {
                   ),
                   child: Center(
                     child: Text(
-                      "WhatsApp",
+                      "WhatsApp UI",
                       style: TextStyle(
                         fontFamily: "Inter",
                         fontSize: 15,
                         fontWeight: FontWeight.bold,
-                        color: Colors.black45,
+                        color: Colors.white70,
                       ),
                     ),
                   ),
@@ -267,9 +260,9 @@ class _wasiullahState extends State<wasiullah> {
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
                       colors: [
-                        Color(0xff649173),
-                        Color(0xffdbd5a4),
-                        Color(0xff8faab3),
+                        Color(0xffe6dada),
+                        Color(0xff274046),
+                        Color(0xffb5734a),
                       ],
                       begin: Alignment.topRight,
                       end: Alignment.bottomLeft,
@@ -283,7 +276,7 @@ class _wasiullahState extends State<wasiullah> {
                         fontFamily: "Inter",
                         fontSize: 15,
                         fontWeight: FontWeight.bold,
-                        color: Colors.black45,
+                        color: Colors.white70,
                       ),
                     ),
                   ),
@@ -295,9 +288,9 @@ class _wasiullahState extends State<wasiullah> {
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
                       colors: [
-                        Color(0xff649173),
-                        Color(0xffdbd5a4),
-                        Color(0xff8faab3),
+                        Color(0xffe6dada),
+                        Color(0xff274046),
+                        Color(0xffb5734a),
                       ],
                       begin: Alignment.topRight,
                       end: Alignment.bottomLeft,
@@ -311,7 +304,7 @@ class _wasiullahState extends State<wasiullah> {
                         fontFamily: "Inter",
                         fontSize: 15,
                         fontWeight: FontWeight.bold,
-                        color: Colors.black45,
+                        color: Colors.white70,
                       ),
                     ),
                   ),
@@ -368,9 +361,9 @@ class _wasiullahState extends State<wasiullah> {
               decoration: BoxDecoration(
                 gradient: LinearGradient(
                   colors: [
-                    Color(0xff649173),
-                    Color(0xffdbd5a4),
-                    Color(0xff8faab3),
+                    Color(0xffe6dada),
+                    Color(0xff274046),
+                    Color(0xffb5734a),
                   ],
                   begin: Alignment.topRight,
                   end: Alignment.bottomLeft,
@@ -382,7 +375,7 @@ class _wasiullahState extends State<wasiullah> {
                   "HOME",
                   style: TextStyle(
                     fontFamily: "Inter",
-                    color: Colors.black45,
+                    color: Colors.white70,
                     fontWeight: FontWeight.bold,
                     fontSize: 15,
                   ),
