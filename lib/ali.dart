@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/home_screen.dart';
+import 'home_screen.dart';
 
-class obaidullah extends StatefulWidget {
-  static const String id = "obaidullah";
-  const obaidullah({super.key});
+class alikhan extends StatefulWidget {
+  static const String id = "alikhan";
+  const alikhan({super.key});
 
   @override
-  State<obaidullah> createState() => _obaidullahState();
+  State<alikhan> createState() => _alikhanState();
 }
 
-class _obaidullahState extends State<obaidullah> {
+class _alikhanState extends State<alikhan> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -17,7 +17,7 @@ class _obaidullahState extends State<obaidullah> {
         flexibleSpace: Container(
           decoration: BoxDecoration(
             gradient: LinearGradient(
-              colors: [Color(0xff649173), Color(0xffdbd5a4), Color(0xff8faab3)],
+              colors: [Color(0xff616161), Color(0xff9bc5c3), Color(0xffe8e0d0)],
               begin: Alignment.topRight,
               end: Alignment.bottomLeft,
             ),
@@ -38,10 +38,10 @@ class _obaidullahState extends State<obaidullah> {
             leading: CircleAvatar(
               radius: 50,
               backgroundColor: Colors.black54,
-              child: Text("OA", style: TextStyle(color: Colors.white)),
+              child: Text("AK", style: TextStyle(color: Colors.white)),
             ),
             title: Text(
-              "Obaidullah Ch",
+              "Ali Khan",
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 20,
@@ -50,10 +50,11 @@ class _obaidullahState extends State<obaidullah> {
               ),
             ),
             subtitle: Text(
-              "FLutter Developer",
+              "Full Stack Developer",
               style: TextStyle(
                 fontFamily: "Inter",
                 fontSize: 13,
+
                 color: Colors.black45,
               ),
             ),
@@ -83,7 +84,7 @@ class _obaidullahState extends State<obaidullah> {
               Icon(Icons.email, color: Colors.black45),
               SizedBox(width: 10),
               Text(
-                "Obaidullahch425@gmail.com",
+                "alikhan3999@gmail.com",
                 style: TextStyle(color: Colors.black45),
               ),
             ],
@@ -101,14 +102,8 @@ class _obaidullahState extends State<obaidullah> {
             ),
           ),
           SizedBox(height: 10),
-          Text(
-            "Flutter developer in the making, focused on building practical mobile apps with clean UI. Currently pursuing BS Computer Science while actively developing real-world projects",
-            style: TextStyle(
-              fontFamily: "Inter",
-              fontSize: 14,
-              color: Colors.black45,
-            ),
-          ),
+          Text("Passionate MERN stack developer with hands-on experience in MongoDB, Express, React, and Node.js. Skilled at building complete, scalable web applications from database design to dynamic user interfaces",style: TextStyle(color: Colors.black45
+          ),),
           SizedBox(height: 15),
           Divider(color: Colors.black45),
           SizedBox(height: 15),
@@ -131,9 +126,9 @@ class _obaidullahState extends State<obaidullah> {
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
                       colors: [
-                        Color(0xff649173),
-                        Color(0xffdbd5a4),
-                        Color(0xff8faab3),
+                        Color(0xff616161),
+                        Color(0xff9bc5c3),
+                        Color(0xffe8e0d0),
                       ],
                       begin: Alignment.topRight,
                       end: Alignment.bottomLeft,
@@ -142,7 +137,8 @@ class _obaidullahState extends State<obaidullah> {
                   ),
                   child: Center(
                     child: Text(
-                      "Flutter",
+                      "ReactJs"
+                          "",
                       style: TextStyle(
                         fontFamily: "Inter",
                         fontSize: 15,
@@ -160,9 +156,9 @@ class _obaidullahState extends State<obaidullah> {
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
                       colors: [
-                        Color(0xff649173),
-                        Color(0xffdbd5a4),
-                        Color(0xff8faab3),
+                        Color(0xff616161),
+                        Color(0xff9bc5c3),
+                        Color(0xffe8e0d0),
                       ],
                       begin: Alignment.topRight,
                       end: Alignment.bottomLeft,
@@ -171,7 +167,7 @@ class _obaidullahState extends State<obaidullah> {
                   ),
                   child: Center(
                     child: Text(
-                      "Java",
+                      "MERN Stack",
                       style: TextStyle(
                         fontFamily: "Inter",
                         fontSize: 15,
@@ -188,9 +184,9 @@ class _obaidullahState extends State<obaidullah> {
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
                       colors: [
-                        Color(0xff649173),
-                        Color(0xffdbd5a4),
-                        Color(0xff8faab3),
+                        Color(0xff616161),
+                        Color(0xff9bc5c3),
+                        Color(0xffe8e0d0),
                       ],
                       begin: Alignment.topRight,
                       end: Alignment.bottomLeft,
@@ -199,7 +195,7 @@ class _obaidullahState extends State<obaidullah> {
                   ),
                   child: Center(
                     child: Text(
-                      "FireBase",
+                      "AI ML",
                       style: TextStyle(
                         fontFamily: "Inter",
                         fontSize: 15,
@@ -234,9 +230,9 @@ class _obaidullahState extends State<obaidullah> {
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
                       colors: [
-                        Color(0xff649173),
-                        Color(0xffdbd5a4),
-                        Color(0xff8faab3),
+                        Color(0xff616161),
+                        Color(0xff9bc5c3),
+                        Color(0xffe8e0d0),
                       ],
                       begin: Alignment.topRight,
                       end: Alignment.bottomLeft,
@@ -245,7 +241,7 @@ class _obaidullahState extends State<obaidullah> {
                   ),
                   child: Center(
                     child: Text(
-                      "WhatsApp",
+                      "Online Store",
                       style: TextStyle(
                         fontFamily: "Inter",
                         fontSize: 15,
@@ -263,9 +259,9 @@ class _obaidullahState extends State<obaidullah> {
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
                       colors: [
-                        Color(0xff649173),
-                        Color(0xffdbd5a4),
-                        Color(0xff8faab3),
+                        Color(0xff616161),
+                        Color(0xff9bc5c3),
+                        Color(0xffe8e0d0),
                       ],
                       begin: Alignment.topRight,
                       end: Alignment.bottomLeft,
@@ -291,9 +287,9 @@ class _obaidullahState extends State<obaidullah> {
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
                       colors: [
-                        Color(0xff649173),
-                        Color(0xffdbd5a4),
-                        Color(0xff8faab3),
+                        Color(0xff616161),
+                        Color(0xff9bc5c3),
+                        Color(0xffe8e0d0),
                       ],
                       begin: Alignment.topRight,
                       end: Alignment.bottomLeft,
@@ -302,7 +298,7 @@ class _obaidullahState extends State<obaidullah> {
                   ),
                   child: Center(
                     child: Text(
-                      "FitPro App",
+                      "PAMS",
                       style: TextStyle(
                         fontFamily: "Inter",
                         fontSize: 15,
@@ -321,8 +317,7 @@ class _obaidullahState extends State<obaidullah> {
 
           TextButton(
             onPressed: () {
-              Navigator.pushNamed(context, HomeScreen.id
-              );
+              Navigator.pushNamed(context, HomeScreen.id);
             },
             style: TextButton.styleFrom(
               padding: EdgeInsets.zero, // important for custom container
@@ -337,9 +332,9 @@ class _obaidullahState extends State<obaidullah> {
               decoration: BoxDecoration(
                 gradient: LinearGradient(
                   colors: [
-                    Color(0xff649173),
-                    Color(0xffdbd5a4),
-                    Color(0xff8faab3),
+                    Color(0xff616161),
+                    Color(0xff9bc5c3),
+                    Color(0xffe8e0d0),
                   ],
                   begin: Alignment.topRight,
                   end: Alignment.bottomLeft,
@@ -362,5 +357,6 @@ class _obaidullahState extends State<obaidullah> {
         ],
       ),
     );
+    ;
   }
 }

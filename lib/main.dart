@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:myapp/ali.dart';
+import 'package:myapp/haseeb.dart';
 import 'package:myapp/home_screen.dart';
 import 'package:myapp/obaidullah.dart';
 import 'package:myapp/wasiullah.dart';
@@ -17,6 +19,8 @@ class Myapp extends StatelessWidget {
       routes: {HomeScreen.id: (context) => HomeScreen(),
         obaidullah.id:(context)=>obaidullah(),
         wasiullah.id:(context)=>wasiullah(),
+        haseeb.id:(context)=> haseeb(),
+        alikhan.id:(context)=> alikhan(),
       },
 
     );

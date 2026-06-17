@@ -315,34 +315,7 @@ class _wasiullahState extends State<wasiullah> {
           SizedBox(height: 15),
           Divider(color: Colors.black45),
           SizedBox(height: 15),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              RichText(
-                text: TextSpan(
-                  text: "Thank",
-                  style: TextStyle(
-                    fontFamily: "Inter",
-                    fontSize: 17,
-                    color: Colors.black45,
-                    fontWeight: FontWeight.bold,
-                    wordSpacing: 10,
-                  ),
-                  children: [
-                    TextSpan(
-                      text: "You",
-                      style: TextStyle(
-                        fontFamily: "Inter",
-                        fontSize: 17,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.tealAccent,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-            ],
-          ),
+
           TextButton(
             onPressed: () {
               Navigator.pushNamed(context, HomeScreen.id

@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/home_screen.dart';
+import 'home_screen.dart';
 
-class obaidullah extends StatefulWidget {
-  static const String id = "obaidullah";
-  const obaidullah({super.key});
+class haseeb extends StatefulWidget {
+  static const String id = "haseeb";
+  const haseeb({super.key});
 
   @override
-  State<obaidullah> createState() => _obaidullahState();
+  State<haseeb> createState() => _haseebState();
 }
 
-class _obaidullahState extends State<obaidullah> {
+class _haseebState extends State<haseeb> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -17,7 +17,7 @@ class _obaidullahState extends State<obaidullah> {
         flexibleSpace: Container(
           decoration: BoxDecoration(
             gradient: LinearGradient(
-              colors: [Color(0xff649173), Color(0xffdbd5a4), Color(0xff8faab3)],
+              colors: [Color(0xff5d4147), Color(0xffa8caba), Color(0xffe8c9a0)],
               begin: Alignment.topRight,
               end: Alignment.bottomLeft,
             ),
@@ -38,10 +38,10 @@ class _obaidullahState extends State<obaidullah> {
             leading: CircleAvatar(
               radius: 50,
               backgroundColor: Colors.black54,
-              child: Text("OA", style: TextStyle(color: Colors.white)),
+              child: Text("AH", style: TextStyle(color: Colors.white)),
             ),
             title: Text(
-              "Obaidullah Ch",
+              "Abdul-Haseeb",
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 20,
@@ -50,7 +50,7 @@ class _obaidullahState extends State<obaidullah> {
               ),
             ),
             subtitle: Text(
-              "FLutter Developer",
+              "Ebay Expert",
               style: TextStyle(
                 fontFamily: "Inter",
                 fontSize: 13,
@@ -83,7 +83,7 @@ class _obaidullahState extends State<obaidullah> {
               Icon(Icons.email, color: Colors.black45),
               SizedBox(width: 10),
               Text(
-                "Obaidullahch425@gmail.com",
+                "Abdulhaseeb401@gmail.com",
                 style: TextStyle(color: Colors.black45),
               ),
             ],
@@ -102,12 +102,8 @@ class _obaidullahState extends State<obaidullah> {
           ),
           SizedBox(height: 10),
           Text(
-            "Flutter developer in the making, focused on building practical mobile apps with clean UI. Currently pursuing BS Computer Science while actively developing real-world projects",
-            style: TextStyle(
-              fontFamily: "Inter",
-              fontSize: 14,
-              color: Colors.black45,
-            ),
+            "Experienced eBay specialist with expertise in buying, selling, and complete store management. Skilled at optimizing listings, managing inventory, and driving sales to maximize store performance",
+            style: TextStyle(color: Colors.black45),
           ),
           SizedBox(height: 15),
           Divider(color: Colors.black45),
@@ -131,9 +127,9 @@ class _obaidullahState extends State<obaidullah> {
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
                       colors: [
-                        Color(0xff649173),
-                        Color(0xffdbd5a4),
-                        Color(0xff8faab3),
+                        Color(0xff5d4147),
+                        Color(0xffa8caba),
+                        Color(0xffe8c9a0),
                       ],
                       begin: Alignment.topRight,
                       end: Alignment.bottomLeft,
@@ -160,9 +156,9 @@ class _obaidullahState extends State<obaidullah> {
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
                       colors: [
-                        Color(0xff649173),
-                        Color(0xffdbd5a4),
-                        Color(0xff8faab3),
+                        Color(0xff5d4147),
+                        Color(0xffa8caba),
+                        Color(0xffe8c9a0),
                       ],
                       begin: Alignment.topRight,
                       end: Alignment.bottomLeft,
@@ -188,9 +184,9 @@ class _obaidullahState extends State<obaidullah> {
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
                       colors: [
-                        Color(0xff649173),
-                        Color(0xffdbd5a4),
-                        Color(0xff8faab3),
+                        Color(0xff5d4147),
+                        Color(0xffa8caba),
+                        Color(0xffe8c9a0),
                       ],
                       begin: Alignment.topRight,
                       end: Alignment.bottomLeft,
@@ -234,9 +230,9 @@ class _obaidullahState extends State<obaidullah> {
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
                       colors: [
-                        Color(0xff649173),
-                        Color(0xffdbd5a4),
-                        Color(0xff8faab3),
+                        Color(0xff5d4147),
+                        Color(0xffa8caba),
+                        Color(0xffe8c9a0),
                       ],
                       begin: Alignment.topRight,
                       end: Alignment.bottomLeft,
@@ -263,9 +259,9 @@ class _obaidullahState extends State<obaidullah> {
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
                       colors: [
-                        Color(0xff649173),
-                        Color(0xffdbd5a4),
-                        Color(0xff8faab3),
+                        Color(0xff5d4147),
+                        Color(0xffa8caba),
+                        Color(0xffe8c9a0),
                       ],
                       begin: Alignment.topRight,
                       end: Alignment.bottomLeft,
@@ -291,9 +287,9 @@ class _obaidullahState extends State<obaidullah> {
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
                       colors: [
-                        Color(0xff649173),
-                        Color(0xffdbd5a4),
-                        Color(0xff8faab3),
+                        Color(0xff5d4147),
+                        Color(0xffa8caba),
+                        Color(0xffe8c9a0),
                       ],
                       begin: Alignment.topRight,
                       end: Alignment.bottomLeft,
@@ -321,8 +317,7 @@ class _obaidullahState extends State<obaidullah> {
 
           TextButton(
             onPressed: () {
-              Navigator.pushNamed(context, HomeScreen.id
-              );
+              Navigator.pushNamed(context, HomeScreen.id);
             },
             style: TextButton.styleFrom(
               padding: EdgeInsets.zero, // important for custom container
@@ -337,9 +332,9 @@ class _obaidullahState extends State<obaidullah> {
               decoration: BoxDecoration(
                 gradient: LinearGradient(
                   colors: [
-                    Color(0xff649173),
-                    Color(0xffdbd5a4),
-                    Color(0xff8faab3),
+                    Color(0xff5d4147),
+                    Color(0xffa8caba),
+                    Color(0xffe8c9a0),
                   ],
                   begin: Alignment.topRight,
                   end: Alignment.bottomLeft,
@@ -362,5 +357,6 @@ class _obaidullahState extends State<obaidullah> {
         ],
       ),
     );
+    ;
   }
 }
