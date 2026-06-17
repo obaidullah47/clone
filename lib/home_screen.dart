@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:myapp/ali.dart';
 import 'package:myapp/haseeb.dart';
 import 'package:myapp/obaidullah.dart';
+import 'package:myapp/shehroz.dart';
 import 'package:myapp/wasiullah.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -155,7 +156,9 @@ class _HomeScreenState extends State<HomeScreen> {
                 borderRadius: BorderRadius.circular(15),
               ),
               child: TextButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.pushNamed(context, shehroz.id);
+                },
                 child: Text(
                   "Shehroz",
                   style: TextStyle(
