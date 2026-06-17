@@ -17,11 +17,7 @@ class _shehrozState extends State<shehroz> {
         flexibleSpace: Container(
           decoration: BoxDecoration(
             gradient: LinearGradient(
-              colors: [
-                Color(0xffe9d362),
-                Color(0xff333333),
-                Color(0xffc0392b),
-              ],
+              colors: [Color(0xffe9d362), Color(0xff333333), Color(0xffc0392b)],
               begin: Alignment.topRight,
               end: Alignment.bottomLeft,
             ),
@@ -29,7 +25,7 @@ class _shehrozState extends State<shehroz> {
         ),
         title: Text(
           "Resume",
-          style: TextStyle(fontWeight: FontWeight.bold, color: Colors.black54),
+          style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white70),
         ),
       ),
 
@@ -105,7 +101,10 @@ class _shehrozState extends State<shehroz> {
             ),
           ),
           SizedBox(height: 10),
-          Text("Experienced WordPress developer with expertise in building and customizing websites, themes, and plugins. Skilled at delivering responsive, high-performance sites tailored to client needs.",style: TextStyle(color: Colors.black45),),
+          Text(
+            "Experienced WordPress developer with expertise in building and customizing websites, themes, and plugins. Skilled at delivering responsive, high-performance sites tailored to client needs.",
+            style: TextStyle(color: Colors.black45),
+          ),
           SizedBox(height: 15),
           Divider(color: Colors.black45),
           SizedBox(height: 15),
