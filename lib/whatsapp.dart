@@ -104,7 +104,18 @@ class _whatsappState extends State<whatsapp> {
     "received",
     "outgoing",
   ];
-
+  List<String> statusTime = [
+    "Today, 11:45 am",
+    "Today, 9:20 am",
+    "Today, 8:05 am",
+    "Today, 6:30 am",
+    "Yesterday, 11:50 pm",
+    "Yesterday, 9:15 pm",
+    "Yesterday, 6:40 pm",
+    "Yesterday, 4:25 pm",
+    "Yesterday, 2:10 pm",
+    "Yesterday, 12:55 pm",
+  ];
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -177,7 +188,21 @@ class _whatsappState extends State<whatsapp> {
                 );
               },
             ),
-            Text("Status"),
+            ListView.builder(
+              itemCount: names.length,
+              itemBuilder: (context, index) {
+                return ListTile(
+                  leading: Container(
+                    decoration: BoxDecoration(shape: BoxShape.circle,border: Border.all(color: Colors.green,width: 3)),
+                    child: CircleAvatar(
+                      backgroundImage: AssetImage(images[index]),
+                    ),
+                  ),
+                  title: Text(names[index]),
+                  subtitle: Text(statusTime[index]),
+                );
+              },
+            ),
             ListView.builder(
               itemCount: names.length,
               itemBuilder: (context, index) {
