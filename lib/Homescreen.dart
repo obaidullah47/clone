@@ -1,3 +1,4 @@
+import 'package:calculator/components/buttons.dart';
 import 'package:flutter/material.dart';
 
 import 'constants.dart';
@@ -17,24 +18,21 @@ class _HomescreenState extends State<Homescreen> {
       body: SafeArea(
         child: Column(
           children: [
-            Padding(
-              padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
-              child: SizedBox(
-                width: double.infinity,
-                height: 55,
-                child: TextButton(
-                  onPressed: () {},
-                  style: TextButton.styleFrom(
-                    backgroundColor: Colors.indigo,
-
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(15),
-                    ),
-                  ),
-                  child: Text("Log in", style: TextStyle(color: whitecolor)),
-                ),
-              ),
+            button(
+              name: "LOGIN",
+              onPress: () {
+                print("click me");
+              },
+              color: Colors.greenAccent,
             ),
+            button(
+              name: "SIGN UP",
+              onPress: () {
+                print("Fuck u");
+              },
+              color: Colors.pinkAccent,
+            ),
+            button(name: "Continue", onPress: (){print("yeeaahhh buddyy");}, color: Color(0xff234323))
           ],
         ),
       ),
